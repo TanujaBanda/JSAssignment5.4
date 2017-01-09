@@ -58,10 +58,16 @@ var Employee5=
 	}
 
 var employees=[Employee1,Employee2,Employee3,Employee4,Employee5];
-for(var i=0;i<5;i++){
-console.log("Name : "+ employees[i]['name'] + ", Age : "+ employees[i]['age'] +", Salary : " + employees[i]['sal'] );
+console.log("Name : "+ employees[2]['name'] + ", Age : "+ employees[2]['age'] +", Salary : " + employees[2]['sal'] );
 console.log("Address:: " );
-console.log("City : " + employees[i].add.city);
-console.log("State : " + employees[i].add.state);
-console.log("Pincode : " + employees[i].add.pincode);
-}
+console.log("City : " + employees[2].add.city);
+console.log("State : " + employees[2].add.state);
+console.log("Pincode : " + employees[2].add.pincode);
+
+//for(var i=0;i<5;i++){
+//console.log("Name : "+ employees[i]['name'] + ", Age : "+ employees[i]['age'] +", Salary : " + employees[i]['sal'] );
+//console.log("Address:: " );
+//console.log("City : " + employees[i].add.city);
+//console.log("State : " + employees[i].add.state);
+//console.log("Pincode : " + employees[i].add.pincode);
+//}
